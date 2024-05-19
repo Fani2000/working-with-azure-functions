@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "BlobTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7271"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33243,
+      "useSSL": false
+    }
+  }
+}
